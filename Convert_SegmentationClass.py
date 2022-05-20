@@ -7,10 +7,11 @@ import numpy as np
 from PIL import Image
 from tqdm import tqdm
 
-#--------------------------------------------------------#
+#-----------------------------------------------------------------------------------#
 #   Origin_SegmentationClass_path   原始标签所在的路径
 #   Out_SegmentationClass_path      输出标签所在的路径
-#--------------------------------------------------------#
+#                                   处理后的标签为灰度图，如果设置的值太小会看不见具体情况。
+#-----------------------------------------------------------------------------------#
 Origin_SegmentationClass_path   = "SegmentationClass_Origin"
 Out_SegmentationClass_path      = "SegmentationClass"
 

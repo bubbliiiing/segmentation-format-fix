@@ -14,7 +14,6 @@ from tqdm import tqdm
 Origin_JPEGImages_path   = "JPEGImages_Origin"
 Out_JPEGImages_path      = "JPEGImages"
 
-
 if __name__ == "__main__":
     if not os.path.exists(Out_JPEGImages_path):
         os.makedirs(Out_JPEGImages_path)
